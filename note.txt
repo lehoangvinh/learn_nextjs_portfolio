@@ -1,0 +1,2 @@
+File nào dùng children thì file đó sẽ là file cha, gọi đến những file còn lại có trong thư mục đó. 
+cụ thể thì layout (cha) gọi đến page (con)

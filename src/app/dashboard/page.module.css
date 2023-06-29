@@ -1,0 +1,50 @@
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    margin-bottom: 100px;
+}
+.topContainer{
+    display: flex;
+    gap:50px
+}
+.botContainer{
+    display: flex;
+    gap:30px;
+    text-align: justify;
+}
+
+.img{
+    flex: 1;
+    height: 100%;
+    position: relative;
+    object-fit: cover;
+}
+
+.content{
+    flex :1;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    justify-content: space-between;
+    gap:20px
+}
+.title{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.desc{
+    font-weight: 400;
+}
+.author{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.authorImg{
+    object-fit: cover;
+    border-radius: 50%;
+}
+

@@ -1,0 +1,29 @@
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+}
+.container{
+    display: flex;
+    gap:50px
+}
+.img{
+    object-fit: cover;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:20px
+}
+.title{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.desc{
+    font-weight: 400;
+}
+
+

@@ -1,0 +1,79 @@
+.container {
+    width: 1000px;
+    margin: 0 auto ;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+.intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #c9d8dc;
+    width: 300px;
+    margin: 0 auto ;
+    height: 400px;
+    gap: 15px;
+    padding: 0 32px;
+    align-items: center;
+    border-radius: 5px;
+}
+.info{
+    padding: 12px;
+    width: 100%;
+    margin-bottom: 16px;
+    border-radius: 5px;
+    border: none;
+}
+
+.buttond{
+    padding: 8px 8px;
+    margin-bottom: 16px;
+    font-style: 20px;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    
+}
+.buttond:hover{
+    opacity: 1;
+    font-weight: bold;
+
+}
+/* .button:nth-child(1){
+    width: 50%;
+    background: #000;
+}
+.button:nth-child(2){
+    width: 50%;
+    background: #000;
+} */
+.buttond:nth-child(3){
+    width: 50%;
+    background: #1ae668;
+    opacity: 0.7;
+}
+.buttond:nth-child(4){
+    background: #1877f2;
+    opacity: 0.7;
+}.buttond:nth-child(5){
+    background: #db7e21;
+    opacity: 0.7;
+}
+
+.regis{
+    color: #000;
+    font-weight: bold;
+}
+.regis:hover{
+    font-weight: bold;
+    color: #39bfd6;
+}
+
+

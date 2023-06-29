@@ -1,0 +1,28 @@
+.container {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.button{
+  background: #4cb2f1;
+  border: none;
+  border-radius: 2px;
+  padding: 2px;
+  opacity: 0.7;
+  cursor: pointer;
+}
+.button:hover{opacity: 1;}
+

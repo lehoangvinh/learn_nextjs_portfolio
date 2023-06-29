@@ -1,0 +1,43 @@
+.container {
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.catTitle{
+    color: rgb(32, 135, 225);
+}
+
+.items{
+    display: flex;
+    /* justify-content: space-between; */
+    gap:50px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.items:nth-child(2n+1){
+    flex-direction: row-reverse;
+}
+
+.title{
+    font-size: 50px
+}
+.desc{
+    font-size: 20px;
+}
+.imgContainer{
+    flex:1;
+    position: relative;
+     height: 500px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex:1;
+    gap :20px
+}
+
+.img{
+    object-fit: cover;
+}
